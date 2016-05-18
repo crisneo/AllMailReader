@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="loginBackground">#ffffff</color>
+    <color name="loginButtonBackground">#BBBFF6</color>
+    <color name="loginButtonForeground">#0000FF</color>
+     <color name="blue">#0000FF</color>
+    
+    <!-- base colors -->
+    <color name="colorPaleteStrong">#979EF7</color>
+    <color name="colorPaleteSoft">#e6e6e6</color>
+    
+
+</resources>

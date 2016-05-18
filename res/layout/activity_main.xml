@@ -1,0 +1,49 @@
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity" >
+   
+<RelativeLayout android:id="@+id/toolbar" 
+    android:layout_width="match_parent" android:layout_height="30dp" android:background="@color/colorPaleteStrong"
+    >
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=""
+        android:id="@+id/txtMessage" android:textSize="12dp" android:textColor="#e6e6e6"  android:background="@android:color/transparent"
+          android:layout_alignParentLeft="true" />
+<!--      <ImageButton android:id="@+id/btnRefresh" -->
+<!--           android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:src="@drawable/refresh" android:background="@android:color/transparent" -->
+<!--           /> -->
+   
+    <!--  <Spinner android:id="@+id/cmbMailAcccounts" android:background="@android:color/transparent" android:layout_height="match_parent" android:layout_width="match_parent" /> -->
+    <ImageButton android:id="@+id/btnRefresh" android:src="@drawable/ic_menu_refresh" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        
+    </ImageButton>
+</RelativeLayout>
+   
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" 
+        >
+          <ListView android:id="@+id/list"  
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/progressBar" 
+            >
+             </ListView>
+             
+        
+    </RelativeLayout>
+<!--     <TextView android:id="@android:id/empty" -->
+<!--                android:layout_width="match_parent" -->
+<!--                android:layout_height="match_parent" -->
+<!--                android:background="#FF0000" -->
+<!--                android:text="No data"/> -->
+            
+             
+</LinearLayout>

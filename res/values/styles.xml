@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item> -->
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+
+        <!-- Support library compatibility -->
+        <!-- <item name="actionBarStyle">@style/MyActionBar</item> -->
+        <item name="android:textViewStyle">@style/textViewMailStyle</item>
+    </style>
+
+    <!--
+    <style name="FullscreenTheme" parent="android:Theme.AppCompat.NoTitleBar.Fullscreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/loginBackground</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+        <item name="android:colorBackground">@color/loginBackground</item>
+        
+       
+    </style>
+    -->
+
+    <style name="loginLayoutStyle">
+        <item name="android:background">@drawable/login_background</item>
+    </style>
+
+    <style name="loginButtonStyle">
+        <item name="android:background">@color/loginButtonBackground</item>
+        <item name="android:textColor">@color/loginButtonForeground</item>
+    </style>
+
+    <style name="mainActionBarStyle">
+        <item name="android:background">@color/colorPaleteStrong</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <!-- ActionBar styles -->
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+
+        <!-- Setting values in the default namespace affects API levels 7-13 -->
+        <!-- <item name="background">@drawable/login_background</item> -->
+        <item name="android:background">@color/colorPaleteStrong</item>
+    </style>
+
+    <!-- progress dialog -->
+    <style name="dialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewMailStyle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/black_overlay</item>
+    </style>
+
+</resources>

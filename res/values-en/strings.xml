@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AllMailReader</string>
+    <string name="action_settings">Settings</string>
+    <string name="image">Image</string>
+    <string name="title_activity_view_mail">Message</string>
+    <string name="title_activity_login_view"></string>
+    <string name="title_activity_main_view">AllMailReader-inbox</string>
+    <string name="textLogout">logout</string>
+    <string name="textSettings">Settings</string>
+    <string name="textLoginMessage">use an account of gmail.com, hotmail.com or outlook.es</string>
+    <string name="textLoading">Loading..</string>
+    <string name="textLoadingDialogTitle">Getting message</string>
+    <string name="textSubject">Subject: </string>
+    <string name="textFrom">From: </string>
+    <string name="textDate">Date: </string>
+    <string name="textShowingMails">Ready,  number of visible messages: </string>
+    <string name="title_activity_about">About the app</string>
+    <string name="aboutMsg">AllMailReader is an app developed as a final task  
+        for android programming asignature of the Android development\'s master\n
+        Author: Cristian M. Sanabria Villarroel\n
+        Copyright 2013-2014
+        </string>
+    <string name="btnCloseAbout">Close</string>
+    <string name="textAbout">About</string>
+    <string name="invalidAcountMsg">could not connect to email server, 
+      please verify your data and try again.
+        </string>
+        
+      <string name="textSendingMail">Sending..</string>
+    <string name="texteplyMail">Reply</string>
+    <string name="btncancelText">Cancel</string>
+    <string name="btnReplyText">send</string>
+
+</resources>

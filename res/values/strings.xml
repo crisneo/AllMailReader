@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AllMailReader</string>
+    <string name="action_settings">Configuración</string>
+    <string name="image">Imagen</string>
+    <string name="title_activity_view_mail">Mensaje</string>
+    <string name="title_activity_login_view"></string>
+    <string name="title_activity_main_view">AllMailReader-bandeja</string>
+    <string name="textLogout">Salir</string>
+    <string name="textSettings">Configuración</string>
+    <string name="textLoginMessage">Ingrese una cuenta gmail.com, hotmail.com o outlook.es</string>
+    <string name="textLoading">Cargando..</string>
+    <string name="textLoadingDialogTitle">Obteniendo mensaje</string>
+    <string name="textSubject">Asunto: </string>
+    <string name="textFrom">De: </string>
+    <string name="textDate">Fecha: </string>
+    <string name="textShowingMails">Listo,  número de mensajes visibles: </string>
+    <string name="title_activity_about">Acerca de la aplicacion</string>
+    <string name="aboutMsg">AllMailReader es una aplicacion desarrollada como practica final 
+        en la materia de Programación para android\n
+        Autor: Cristian M. Sanabria Villarroel\n
+        Copyright 2013-2014
+        </string>
+    <string name="btnCloseAbout">Cerrar</string>
+    <string name="textAbout">Acerca de</string>
+    <string name="invalidAcountMsg">la conexion al servidor de correo falló, 
+       por favor verifique las credenciales e intente de nuevo.
+        </string>
+    
+    
+    <string name="textSendingMail">Enviando</string>
+    <string name="texteplyMail">Responder</string>
+    <string name="btncancelText">Cancelar</string>
+    <string name="btnReplyText">Enviar</string>
+
+</resources>
